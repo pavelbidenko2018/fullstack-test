@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Main {
 	
-	@CrossOrigin(origins = "http://localhost:3000")
+	@CrossOrigin(origins = "https://ifo-fullstack-test.herokuapp.com")
 	@GetMapping(value = "/name")
 	public @ResponseBody String getname() {
 		return "Hello World";
